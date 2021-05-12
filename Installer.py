@@ -28,6 +28,8 @@ for file in os.listdir(rf"C:\Users\{getpass.getuser()}\Charonum\JS\JS_Startup-ma
     shutil.move(rf"C:\Users\{getpass.getuser()}\Charonum\JS\JS_Startup-main\{file}", rf"C:\Users\{getpass.getuser()}\Charonum\JS")
 
 os.remove(rf"C:\Users\{getpass.getuser()}\Charonum\JS\JS_Startup-main.zip")
+os.remove(rf"C:\Users\{getpass.getuser()}\Charonum\JS\JS_Startup-main")
+os.remove(rf"C:\Users\{getpass.getuser()}\Charonum\JS\README.md")
 
 print("Installing PyAudio...")
 user = getpass.getuser()
