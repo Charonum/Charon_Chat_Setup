@@ -31,5 +31,5 @@ os.remove(rf"C:\Users\{getpass.getuser()}\Charonum\JS\JS_Startup-main.zip")
 
 print("Installing PyAudio...")
 user = getpass.getuser()
-os.chdir(fr"C:\Users\{user}\Downloads\JS_Setup\Setup_Files")
+os.chdir(fr"C:\Users\{user}\Downloads\JS_Setup_main\Setup_Files")
 os.system("install.py")
