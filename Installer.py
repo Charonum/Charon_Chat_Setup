@@ -8,9 +8,7 @@ import shutil
 try:
     os.mkdir(rf"C:\Users\{getpass.getuser()}\Charonum\JS")
 except:
-    JS = fr'C:\Users\{getpass.getuser()}\Charonum\JS'
-    for f in os.listdir(JS):
-        os.remove(os.path.join(JS, f))
+
 
 subprocess.call([sys.executable, "-m", "pip", "install", "--upgrade", "pip"])
 subprocess.call([sys.executable, "-m", "pip", "install", "requests"])
@@ -33,5 +31,5 @@ os.remove(rf"C:\Users\{getpass.getuser()}\Charonum\JS\README.md")
 
 print("Installing PyAudio...")
 user = getpass.getuser()
-os.chdir(fr"C:\Users\{user}\Downloads\JS_Setup_main\Setup_Files")
+os.chdir(fr"C:\Users\{user}\Downloads\Charon_Chat_Setup_main\Setup_Files")
 os.system("install.py")
