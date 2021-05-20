@@ -31,5 +31,5 @@ os.remove(rf"C:\Users\{getpass.getuser()}\Charonum\JS\README.md")
 
 print("Installing PyAudio...")
 user = getpass.getuser()
-os.chdir(fr"C:\Users\{user}\Downloads\Charon_Chat_Setup_main\Setup_Files")
+os.chdir(fr"C:\Users\{user}\Downloads\Charon_Chat_Setup-main\Setup_Files")
 os.system("install.py")
