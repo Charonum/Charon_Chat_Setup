@@ -8,7 +8,7 @@ import shutil
 try:
     os.mkdir(rf"C:\Users\{getpass.getuser()}\Charonum\JS")
 except:
-
+    pass
 
 subprocess.call([sys.executable, "-m", "pip", "install", "--upgrade", "pip"])
 subprocess.call([sys.executable, "-m", "pip", "install", "requests"])
